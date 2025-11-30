@@ -47,7 +47,7 @@
       },
       {
         "images": [
-          "https://github.com/user-attachments/assets/fefa3c37-62dd-4ffb-a6fa-cab602e6b5fb"
+          "https://github.com/user-attachments/assets/f021427a-6343-4e9d-84a4-9b28b5237c99"
         ],
         "title": "Hifi-ESP32-Plus",
         "description": "<a href=\"https://www.tindie.com/products/sonocotta/hifi-esp32-plus\">HiFi-ESP32-Plus</a> represents the next evolution of HiFi-ESP32 boards, featuring the advanced PCM5122 DAC with built-in DSP capabilities. This board maintains the same audio quality as the original HiFi-ESP32 while adding powerful digital signal processing features, including parametric EQ (6 BQs per channel), DRC, and crossover functionality (with output to downstream DAC)",
@@ -94,7 +94,7 @@
         },
         {
           "images": [
-            "https://github.com/user-attachments/assets/f021427a-6343-4e9d-84a4-9b28b5237c99"
+            "https://github.com/user-attachments/assets/fefa3c37-62dd-4ffb-a6fa-cab602e6b5fb"
           ],
           "title": "HiFi-ESP32-S3-Plus",
           "description": "<a href=\"https://www.tindie.com/products/sonocotta/hifi-esp32-plus\">HiFi-ESP32-S3-Plus</a> is an ESP32-S3 version of the HiFi-ESP32-Plus. It does not support Bluetooth, but have more accessible PSRAM running at higher speed.",
