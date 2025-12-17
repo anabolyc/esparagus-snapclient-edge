@@ -7,7 +7,7 @@ on:
     paths-ignore:
     - 'installer/**'
     - 'doc/**'
-    - 'docs/**'
+    - '.github/**'
 
 jobs:
   build:
