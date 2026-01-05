@@ -24,10 +24,6 @@
                 {
                     "path": "binaries/lyra-t-4.3-snapclient-2025-12-17-snapclient.bin",
                     "offset": "0x10000"
-                },
-                {
-                    "path": "binaries/lyra-t-4.3-snapclient-2025-12-17-storage.bin",
-                    "offset": "0x370000"
                 }
             ]
         }

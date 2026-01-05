@@ -24,10 +24,6 @@
                 {
                     "path": "binaries/hifi-esp-snapclient-latest-snapclient.bin",
                     "offset": "0x10000"
-                },
-                {
-                    "path": "binaries/hifi-esp-snapclient-latest-storage.bin",
-                    "offset": "0x370000"
                 }
             ]
         }
