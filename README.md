@@ -68,8 +68,7 @@ A synchronous multiroom audio streaming client for [Snapcast](https://github.com
      0x1000 your-device-bootloader.bin \
      0x8000 your-device-partition-table.bin \
      0xd000 your-device-ota_data_initial.bin \
-     0x10000 your-device-snapclient.bin \
-     0x370000 your-device-storage.bin
+     0x10000 your-device-snapclient.bin
    ```
 
    For example, for HiFi-ESP32:
@@ -79,8 +78,7 @@ A synchronous multiroom audio streaming client for [Snapcast](https://github.com
      0x1000 hifi-esp32-snapclient-2025-11-14-bootloader.bin \
      0x8000 hifi-esp32-snapclient-2025-11-14-partition-table.bin \
      0xd000 hifi-esp32-snapclient-2025-11-14-ota_data_initial.bin \
-     0x10000 hifi-esp32-snapclient-2025-11-14-snapclient.bin \
-     0x370000 hifi-esp32-snapclient-2025-11-14-storage.bin
+     0x10000 hifi-esp32-snapclient-2025-11-14-snapclient.bin
    ```
 
 ### Option 3: Build from Source

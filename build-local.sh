@@ -68,7 +68,6 @@ docker run --rm \
             
             # Copy binaries to artifacts
             cp \$build_dir/snapclient.bin artifacts/binaries/\$config-snapclient-$datestring-snapclient.bin
-            cp \$build_dir/storage.bin artifacts/binaries/\$config-snapclient-$datestring-storage.bin
             cp \$build_dir/ota_data_initial.bin artifacts/binaries/\$config-snapclient-$datestring-ota_data_initial.bin
             cp \$build_dir/bootloader/bootloader.bin artifacts/binaries/\$config-snapclient-$datestring-bootloader.bin
             cp \$build_dir/partition_table/partition-table.bin artifacts/binaries/\$config-snapclient-$datestring-partition-table.bin

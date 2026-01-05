@@ -24,10 +24,6 @@
                 {
                     "path": "binaries/esp-ai-thinker-snapclient-latest-snapclient.bin",
                     "offset": "0x10000"
-                },
-                {
-                    "path": "binaries/esp-ai-thinker-snapclient-latest-storage.bin",
-                    "offset": "0x370000"
                 }
             ]
         }

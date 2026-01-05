@@ -48,7 +48,6 @@ jobs:
           idf.py build
 
           cp build/snapclient.bin ../docs/artifacts/binaries/$config-snapclient-$datestring-snapclient.bin
-          cp build/storage.bin ../docs/artifacts/binaries/$config-snapclient-$datestring-storage.bin
           cp build/ota_data_initial.bin ../docs/artifacts/binaries/$config-snapclient-$datestring-ota_data_initial.bin
           cp build/bootloader/bootloader.bin ../docs/artifacts/binaries/$config-snapclient-$datestring-bootloader.bin
           cp build/partition_table/partition-table.bin ../docs/artifacts/binaries/$config-snapclient-$datestring-partition-table.bin
