@@ -6,7 +6,7 @@
         {
             "label": "start docker container for build",
             "type": "shell",
-            "command": "docker run --rm -it -v ./snapclient:/project -v ./configs:/project/configs -w /project -v /dev:/dev --privileged espressif/idf:v5.5.1",
+            "command": "docker run --rm -it -v ${workspaceFolder}/snapclient:${workspaceFolder}/snapclient -v ${workspaceFolder}/configs:${workspaceFolder}/snapclient/configs -w ${workspaceFolder}/snapclient -v /dev:/dev --privileged espressif/idf:v5.5.1",
             "problemMatcher": []
         },
         {
@@ -79,19 +79,6 @@
                 "echo": true,
                 "reveal": "always",
                 "panel": "shared"
-            },
-            "problemMatcher": {
-                "owner": "custom",
-                "pattern": [
-                    {
-                        "regexp": ".*"
-                    }
-                ],
-                "background": {
-                    "activeOnStart": true,
-                    "beginsPattern": ".*",
-                    "endsPattern": "Serving HTTP"
-                }
             }
         },
         {
@@ -121,19 +108,6 @@
                 "echo": true,
                 "reveal": "always",
                 "panel": "shared"
-            },
-            "problemMatcher": {
-                "owner": "custom",
-                "pattern": [
-                    {
-                        "regexp": ".*"
-                    }
-                ],
-                "background": {
-                    "activeOnStart": true,
-                    "beginsPattern": ".*",
-                    "endsPattern": "(webpack compiled|Local:|ready)"
-                }
             }
         },
         {
