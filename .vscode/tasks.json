@@ -79,19 +79,6 @@
                 "echo": true,
                 "reveal": "always",
                 "panel": "shared"
-            },
-            "problemMatcher": {
-                "owner": "custom",
-                "pattern": [
-                    {
-                        "regexp": ".*"
-                    }
-                ],
-                "background": {
-                    "activeOnStart": true,
-                    "beginsPattern": ".*",
-                    "endsPattern": "Serving HTTP"
-                }
             }
         },
         {
@@ -121,19 +108,6 @@
                 "echo": true,
                 "reveal": "always",
                 "panel": "shared"
-            },
-            "problemMatcher": {
-                "owner": "custom",
-                "pattern": [
-                    {
-                        "regexp": ".*"
-                    }
-                ],
-                "background": {
-                    "activeOnStart": true,
-                    "beginsPattern": ".*",
-                    "endsPattern": "(webpack compiled|Local:|ready)"
-                }
             }
         },
         {
