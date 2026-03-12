@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "start docker container for build",
+            "label": "Start Docker Container for Build",
             "type": "shell",
             "command": "docker run --rm -it -v ${workspaceFolder}/snapclient:${workspaceFolder}/snapclient -v ${workspaceFolder}/configs:${workspaceFolder}/snapclient/configs -w ${workspaceFolder}/snapclient -v /dev:/dev --privileged espressif/idf:v5.5.1",
             "problemMatcher": []
@@ -71,33 +71,7 @@
             }
         },
         {
-            "label": "Serve HTML (Local)",
-            "type": "shell",
-            "command": "python3 -m http.server 8000 --directory \"${workspaceFolder}/snapclient/html\"",
-            "isBackground": true,
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "panel": "shared"
-            }
-        },
-        {
-            "label": "Open HTML in Browser",
-            "type": "shell",
-            "command": "open http://localhost:8000",
-            "problemMatcher": []
-        },
-        {
-            "label": "Serve HTML and Open",
-            "dependsOrder": "sequence",
-            "dependsOn": [
-                "Serve HTML (Local)",
-                "Open HTML in Browser"
-            ],
-            "problemMatcher": []
-        },
-        {
-            "label": "Serve Installer (Local)",
+            "label": "Run Installer (Debug)",
             "type": "shell",
             "command": "npm run dev",
             "options": {
@@ -111,20 +85,12 @@
             }
         },
         {
-            "label": "Open Installer in Browser",
-            "type": "shell",
-            "command": "open http://localhost:8001",
-            "problemMatcher": []
-        },
-        {
-            "label": "Serve Installer and Open",
-            "dependsOrder": "sequence",
-            "dependsOn": [
-                "Serve Installer (Local)",
-                "Open Installer in Browser"
-            ],
-            "problemMatcher": []
-        }
+			"label": "Serve Web Installer (Prod)",
+			"type": "shell",
+			"command": "python3 -m http.server 8008 -d docs",
+			"isBackground": true,
+			"problemMatcher": []
+		},
     ],
     "inputs": [
         {
