@@ -40,6 +40,22 @@
       },
       {
         "images": [
+          "https://github.com/user-attachments/assets/f6cafdb7-f3ef-4cc7-a60f-299406c5ee2e"
+        ],
+        "title": "Esparagus Audio Brick (ESP32)",
+        "description": "<a href=\"https://www.crowdsupply.com/sonocotta/esparagus-audio-brick\">Esparagus Audio Brick</a> is a compact, Hi-Fi-grade DAC with built-in amplifier. Designed for seamless integration with Home Assistant, it transforms any speaker into a smart, synchronized, and fully customizable audio system. With a built-in powerful DSP (15-band EQ, fault management, precise gain control to match given speaker, and more), and sustainable hardware built to last, the Esparagus Audio Brick grows with your smart home instead of becoming obsolete.",
+        "manifest": "artifacts/manifest-esparagus-audio-brick-latest.json"
+      },
+      {
+        "images": [
+          "https://github.com/user-attachments/assets/f6cafdb7-f3ef-4cc7-a60f-299406c5ee2e"
+        ],
+        "title": "Esparagus Audio Brick (ESP32-S3)",
+        "description": "<a href=\"https://www.crowdsupply.com/sonocotta/esparagus-audio-brick\">Esparagus Audio Brick (ESP32-S3)</a> is ESP32-S3 version of the board. It has the same features and capabilities as the ESP32 version, but with a more powerful processor and more RAM. This gives little more headroom in audio streaming tasks.",
+        "manifest": "artifacts/manifest-esparagus-audio-brick-s3-latest.json"
+      },
+      {
+        "images": [
           "https://github.com/user-attachments/assets/84f3732c-cb69-4689-89ab-f31cbbc4554e"
         ],
         "title": "Esparagus Echo",
@@ -117,13 +133,13 @@
         "manifest": "artifacts/manifest-loud-esp32-latest.json"
       },
       {
-            "images": [
-                "https://github.com/user-attachments/assets/e732f7a9-77e5-4182-b808-bf12ff35a8b7"
-            ],
-            "title": "Loud-ESP32-S3 Rev G+",
-            "description": "Latest revision of the <a href=\"https://www.tindie.com/products/sonocotta/loud-esp32/\">Loud-ESP32S3</a> boards use slightly different pinout to be aligned with other boards in the ESP32-S3 family.",
-            "manifest": "artifacts/manifest-loud-esp32s3-latest.json"
-        }
+        "images": [
+          "https://github.com/user-attachments/assets/e732f7a9-77e5-4182-b808-bf12ff35a8b7"
+        ],
+        "title": "Loud-ESP32-S3 Rev G+",
+        "description": "Latest revision of the <a href=\"https://www.tindie.com/products/sonocotta/loud-esp32/\">Loud-ESP32S3</a> boards use slightly different pinout to be aligned with other boards in the ESP32-S3 family.",
+        "manifest": "artifacts/manifest-loud-esp32s3-latest.json"
+      }
     ]
   },
   {
