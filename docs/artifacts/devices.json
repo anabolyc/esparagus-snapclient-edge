@@ -157,11 +157,27 @@
       },
       {
         "images": [
+          "https://github.com/user-attachments/assets/06745d0b-ee1d-48fb-9883-347d742ff5f1"
+        ],
+        "title": "Louder-ESP32-Plus",
+        "description": "Reviewed design on the <a href=\"https://www.tindie.com/products/sonocotta/louder-esp32-plus/\">Louder-ESP32-Plus</a> model includes newer and more capable TAS5825M DAC with more efiicient and more powerful output stage.",
+        "manifest": "artifacts/manifest-louder-esp32-plus-latest.json"
+      },
+      {
+        "images": [
           "https://github.com/user-attachments/assets/0b143999-959b-4a2a-af37-deddfa07670d"
         ],
         "title": "Louder-ESP32-S3",
         "description": "<a href=\"https://www.tindie.com/products/sonocotta/louder-esp32\">Louder-ESP32-S3</a> is an ESP32-S3 version of the Louder-ESP32. It is a top-of-the-range model that uses modern highly capable TAS5805M DAC. It does not support Bluetooth, but have more accessible PSRAM running at higher speed.",
         "manifest": "artifacts/manifest-louder-esp32s3-latest.json"
+      },
+      {
+        "images": [
+          "https://github.com/user-attachments/assets/06745d0b-ee1d-48fb-9883-347d742ff5f1"
+        ],
+        "title": "Louder-ESP32-S3-Plus",
+        "description": "Reviewed design on the <a href=\"https://www.tindie.com/products/sonocotta/louder-esp32-plus/\">Louder-ESP32-Plus</a> model includes newer and more capable TAS5825M DAC with more efiicient and more powerful output stage.",
+        "manifest": "artifacts/manifest-louder-esp32s3-plus-latest.json"
       }
     ]
   },
