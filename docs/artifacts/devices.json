@@ -200,7 +200,7 @@
         ],
         "title": "Amped-ESP32-Plus",
         "description": "<a href=\"https://www.tindie.com/products/sonocotta/amped-esp32-plus/\">Amped-ESP32-Plus</a> is an extension of the HiFi-ESP32-Plus board, it adds a high quality D-class TPA3128 amp to the PCM5122 DAC. You can use either 3.5mm jack for line output (amp will be muted) or screw terminals to connect speakers.",
-        "manifest": "artifacts/manifest-amped-esp32-latest.json"
+        "manifest": "artifacts/manifest-amped-esp32-plus-latest.json"
       },
       {
         "images": [
