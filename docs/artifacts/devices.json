@@ -139,6 +139,22 @@
         "title": "Loud-ESP32-S3 Rev G+",
         "description": "Latest revision of the <a href=\"https://www.tindie.com/products/sonocotta/loud-esp32/\">Loud-ESP32S3</a> boards use slightly different pinout to be aligned with other boards in the ESP32-S3 family.",
         "manifest": "artifacts/manifest-loud-esp32s3-latest.json"
+      },
+      {
+        "images": [
+          "https://github.com/user-attachments/assets/e3be3e40-4989-4310-842f-8709e21af504"
+        ],
+        "title": "Loud-ESP32-Plus",
+        "description": "The Loud-ESP32-Plus model hires much more powerful <a href=\"https://www.infineon.com/part/MA12070P\">Infineon MA12070P</a> DAC with up to 60W per channel. Due to the D-class amp, they are highly efficient yet high-quality audio streamers",
+        "manifest": "artifacts/manifest-loud-esp32-plus-latest.json"
+      },
+      {
+        "images": [
+          "https://github.com/user-attachments/assets/e3be3e40-4989-4310-842f-8709e21af504"
+        ],
+        "title": "Loud-ESP32-S3-Plus",
+        "description": "The Loud-ESP32-S3-Plus model hires much more powerful <a href=\"https://www.infineon.com/part/MA12070P\">Infineon MA12070P</a> DAC with up to 60W per channel. Due to the D-class amp, they are highly efficient yet high-quality audio streamers",
+        "manifest": "artifacts/manifest-loud-esp32s3-plus-latest.json"
       }
     ]
   },
